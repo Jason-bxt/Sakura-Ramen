@@ -1,0 +1,79 @@
+@media(max-width:900px) {
+   .hide-mobile {
+    display:none;
+   }
+   .sakura-img {
+    margin-left:24px;
+   }
+   .navbar {
+    align-items:center;
+   }
+   .header {
+    justify-content:end;
+    margin-right:24px;
+   }
+   button {
+    margin:0;
+   }
+   .title {
+    margin-top:20vh;
+   }
+   h1 {
+    font-size: 72px;
+   }
+   p {
+    font-size:20px;
+   }
+}
+
+
+
+
+@media (max-width:768px) {
+  .sec-menu {
+    padding-top:96px;
+    padding-bottom:96px;
+}
+.sec-menu h2 {
+margin-bottom:48px;
+}
+.menu-right {
+  margin: 32px 0 32px 0;
+}
+.food-img {
+  margin-right: 24px;
+}
+.food-img-right {
+  margin-left: 24px;
+}
+.food-name {
+  font-size: 32px;
+}
+tr {
+  font-size: 24px;
+}
+.sec-find {
+  margin: 96px 0 0 0;
+}
+.adress {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+.marker {
+  width: 20px;
+  height: 20px;
+}
+h2 {
+  font-size: 64px;
+}
+#location {
+  margin:0;
+}
+.sakura-icon {
+  margin-left:20px;
+}
+.social {
+  margin-right: 20px;
+}
+
+}

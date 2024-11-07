@@ -1,0 +1,25 @@
+.sec-end {
+  background-color: #0a141e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 144px;
+  width: 100%;
+  margin: 0;
+}
+
+.sakura-icon {
+  height: 44px;
+  margin-left: 120px;
+}
+.social {
+  margin-right: 120px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.sakura-mobile {
+  display:none;
+}

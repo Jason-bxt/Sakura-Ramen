@@ -1,0 +1,55 @@
+.sec-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/img/section_our_menu_bg.jpg);
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.sec-menu h2 {
+  font-size: 80px;
+  margin-bottom: 64px;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+}
+.menu-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 56px 0 56px 0;
+}
+
+.food-img {
+  width: 352px;
+  height: 352px;
+  margin-right: 80px;
+}
+.food-img-right {
+  width: 352px;
+  height: 352px;
+  margin-left: 80px;
+}
+
+.food-name {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  font-family: "Economica", sans-serif;
+  color: black;
+}
+
+tr {
+  font-size: 32px;
+  font-weight: bold;
+  color: #675e54;
+  font-family: "Raleway", sans-serif;
+}
+
+.beef {
+  margin: 8px 0 8px 0;
+}

@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.sec-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/img/hero_bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top:14vh;
+}
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+  margin: 0;
+}
+p {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.sakura {
+  display: flex;
+  align-items: center;
+}
+
+.sakura-img {
+  width: 64px;
+  height: 64px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.header a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #9f0908;
+  border: solid 2px;
+  border-radius: 8px;
+  border-color: white;
+  width: 240px;
+  height: 40px;
+  margin-left:48px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button:hover {
+  color: yellow;
+}
+
+.p-icon {
+  width: 24px;
+}
